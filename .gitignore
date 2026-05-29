@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Локальные временные файлы.
+.DS_Store
+*.tmp
+*.bak
+
+# Модели не должны попадать в репозиторий.
+models/
+*.safetensors
+*.gguf
+
